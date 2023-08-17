@@ -1,0 +1,20 @@
+package br.senai.listaExerciciosRevisao2;
+
+public class L2_Exercicio10ComRecursividade {
+
+	public static void main(String[] args) {
+		int valor = 5;
+		
+		System.out.println("Fatorial: "+Fatorial(valor));
+
+	}
+	
+	public static int Fatorial(int numero) {
+		if(numero == 0) {
+			return 1;
+		} else {
+			return numero * Fatorial(numero - 1);
+		}
+	}
+
+}

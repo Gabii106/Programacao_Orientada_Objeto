@@ -1,0 +1,16 @@
+package br.com.unisenai.poo;
+
+public class App {
+
+	public static void main(String[] args) {
+		Contato contato1 = new Contato(); //Instancia a classe contato
+		
+		contato1.nome = "Gabi";
+		contato1.telefone = "12345678";
+		contato1.email = "algo@email.com";
+		
+		contato1.telefonar();
+		contato1.enviarEmail("Seu cadastro foi aprovado. Aguardamos vc na segunda feira!");
+	}
+
+}

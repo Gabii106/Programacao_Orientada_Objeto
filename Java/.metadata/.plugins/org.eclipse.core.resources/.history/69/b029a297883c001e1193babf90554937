@@ -1,0 +1,20 @@
+package br.com.unisenai.poo;
+
+public class Contato {
+	//Definições de propriedade
+	String nome;
+	String telefone;
+	String email;
+	
+	//Definições de comportamento
+	public void telefonar() { 
+		System.out.println("Telefonado para o número "+telefone);
+	}
+	
+	public void enviarEmail(String mensagem) {
+		System.out.println("Enviando a mensagem ");
+		System.out.println(mensagem);
+		System.out.println("Para o email "+email);
+	}
+
+}
