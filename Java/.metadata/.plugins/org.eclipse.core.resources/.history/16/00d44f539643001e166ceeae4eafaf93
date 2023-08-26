@@ -1,0 +1,35 @@
+package br.com.unisenai.poo;
+
+//Exercicio 03
+
+public class Produto {
+	private String nome;
+	private double preco;
+	private int quantidadeEmEstoque;
+	
+	//Métodos
+	
+	public void adicionarUnidade() {
+		this.quantidadeEmEstoque = this.quantidadeEmEstoque + 1;
+	}
+	
+	public void retirarUnidade() {
+		this.quantidadeEmEstoque = this.quantidadeEmEstoque - 1;
+	}
+	
+	//Set e Get
+	
+	public String getNome() {
+		return this.nome;
+	}
+	
+	public double getPreco() {
+		return this.preco;
+	}
+	
+	public int getQuantidadeEmEstoque() {
+		return this.quantidadeEmEstoque;
+	}
+	
+	
+}

@@ -1,0 +1,64 @@
+package br.com.unisenai.poo;
+
+//Exercicio 03
+
+public class Produto {
+	private String nome;
+	private double preco;
+	private int quantidadeEmEstoque;
+	boolean validaPreco = false;
+	boolean validaQuant = false;
+	
+	//Métodos
+	
+	public void adicionarUnidade() {
+		this.quantidadeEmEstoque = this.quantidadeEmEstoque + 1;
+	}
+	
+	public void retirarUnidade() {
+		if(quantidadeEmEstoque > 0) {
+			this.quantidadeEmEstoque = this.quantidadeEmEstoque - 1;
+		} else {
+			System.out.println("\nO produto "+nome+" está fora de estoque\n");
+		}
+		
+	}
+	
+	//Get e Set
+	
+	public String getNome() {
+		return this.nome;
+	}
+	
+	public void setNome(String novoNome) {
+		this.nome = novoNome;
+	}
+	
+	public double getPreco() {
+		return this.preco;
+	}
+	
+	public void setPreco(double novoPreco) {
+		if(novoPreco > 0) {
+			this.preco = novoPreco;
+			validaPreco = true;
+		} else {
+			System.out.println("Preço inválido!");
+		}
+	}
+	
+	public int getQuantidadeEmEstoque() {
+		return this.quantidadeEmEstoque;
+	}
+	
+	public void setQuantidadeEmEstoque(int novaQuant) {
+		if(novaQuant >= 0) {
+			this.quantidadeEmEstoque = novaQuant;
+			validaQuant = true;
+		} else {
+			System.out.println("Quantidade em estoque inválida!");
+		}
+	}
+	
+	
+}
