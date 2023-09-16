@@ -7,7 +7,13 @@
     <fullyQualifiedTypeName name="br.com.unisenai.poo.Celular"/>
     <fullyQualifiedTypeName name="correcao.Estoque"/>
     <fullyQualifiedTypeName name="br.com.unisenai.poo.Funcionario"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="br.com.unisenai.poo.Exercicio07_Cliente"/>
     <fullyQualifiedTypeName name="br.com.unisenai.poo.PedidoOnline"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="br.com.unisenai.aula.Contact"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="br.com.unisenai.aula.Dog"/>
+    <fullyQualifiedTypeName name="br.com.unisenai.aula.Pessoa"/>
 </qualifiedTypeNameHistroy>
